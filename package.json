@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  },
+  "name": "tailwind-starter-v4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
